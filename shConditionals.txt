@@ -1,0 +1,28 @@
+String Comparsion
+
+Str1 = Str2 (Return true if the strings are equal)
+Str1 != Str2 (Return true if the strings are not equal)
+-n Str1 (Return true if the string is not null)
+-z Str1 (Return true if the string is null)
+
+Numeric Comparsion
+
+expr1 -eq expr2 (Return true if the values are equal)
+expr1 -ne expr2 (Return true if the values are not equal)
+expr1 -gt expr2 (Return true if the expr1 is bigger than expr2)
+expr1 -ge expr2 (Return true if the expr1 is bigger or equal expr2)
+expr1 -lt expr2 (Return true if the expr1 is smaller than expr2)
+expr1 -le expr2 (Return true if the expr1 is smaller or equal expr2)
+! expr1 (Denies the result of expression (example: if the result is expresion=true return expression=false vice versa))
+
+Conditionals of files
+
+-d file (Return if is directory)
+-e file (Return true if the file exists)
+-f file (Return true if the file exists (-d is more used because is portable))
+-g file (Return true if GID is enabled in file)
+-r file (Return true if the file has permission to read)
+-s file (Return true if the file has a different size than 0)
+-u (Return true if the UID is enabled in file)
+-w (Return true if the file has permission to write)
+-x (Return true if the file has permission to execute)
