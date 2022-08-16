@@ -4,6 +4,6 @@ That's my git repository that I'm using to send my knowledgment update when I'm 
 
 # Files
 
-## 1. var.sh
+## var.sh
 var.sh is the file that shows what I've learned about some variables in shellscript file.
 
