@@ -15,3 +15,6 @@ conditionalsJob1.sh is the file that shows the exercise that I've done during th
 
 ## shConditionals.txt
 shConditionals.txt if the file that I've changed to a .txt file without columns and more simplified the original file was provided by the teacher.
+
+## loop.sh
+loop.sh is the file that shows some examples of loops with for, while and array.
