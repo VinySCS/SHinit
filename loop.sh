@@ -8,7 +8,7 @@ done
 #######################################################################################
 
 echo "==== For 2 (seq)"
-#executa uma contagem até 10 utilizando a variável i e o comando de contagem seq
+#a counter to count sequentially crescent numbers until 10 using seq parameter
     for i in $(seq 10)
 do
     echo $i
@@ -16,7 +16,7 @@ done
 #########################################################################################
 
 echo "==== For 3 (array)"
-#Array contendo frutas
+#Array with fruits
 Frutas=(
 'Laranja'
 'Ameixa'
@@ -24,13 +24,13 @@ Frutas=(
 'Melancia'
 'Jabuticaba'
 )
-#Laço for para imprimir na tela cada fruta dentro do array
+#loop to print all fruits in the array sequentially
 for i in "${Frutas[@]}"; do
     echo "$i"
 done
 
 echo "==== While"
-#While para imprimir na tela uma contagem crescente dos valores dentro do array
+#While to print a count up of numbers according the content of the array
 counter=0
 while [[ $counter -lt ${#Frutas[@]} ]]; do
     echo $counter
