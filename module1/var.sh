@@ -1,5 +1,31 @@
 #!/usr/bin/env bash
 #It's interesting to use this format of start because it search for your bash in your env
+#
+###########################################################################
+#   var.sh - Show examples to use echo.                                   #
+###########################################################################
+#   Author: Vinux                                                         #
+#   Maintenance by: Vinux                                                 #
+#   GitHub: https://github.com/VinySCS                                    #
+#   Discord: Vinux#1657                                                   #
+########################################################################### 
+#   This program is free software: you can redistribute it and/or modify  #
+#   it under the terms of the GNU Lesser General Public License as        #
+#   published by the Free Software Foundation, either version 2 of the    #
+#   GNU Lesser General Public License.                                    # 
+###########################################################################
+#   Example: ./var.sh                                                     #
+#                                                                         # 
+#   Description: This script were created by Vinux with studies purposes  #
+#                which just show examples to use echo with variables in   #
+#                the script and system variables.                         #
+###########################################################################
+#   Version: 1.0 8/16/2022, by Vinux.                                     #
+#       - Script were created.                                            #
+#                                                                         #
+#   Tested: Ubuntu 22.04                                                  #
+#           bash 5.1.16                                                   #
+###########################################################################
 
 echo "That's my first script :)"
 #echo print something
