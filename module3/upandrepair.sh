@@ -22,10 +22,9 @@
 #                             -v script version                           #
 #                             -h show help menu                           #
 #                                                                         #
-#   Description: This script were created by Mateus Müller with studies   #
-#                purposes and modified by Vinux, this script will extract #
-#                users from /etc/passwd, set in uppercase and order by    #
-#                alphabetical.                                            #
+#   Description: This script were created by Vinux with studies           #
+#                purposes, this script will help you to maintenance your  #
+#                linux with some shortcuts                                #
 ###########################################################################
 #   Version: 1.0 8/29/2022, by Vinux.                                     #
 #       - Script were created.                                            #
