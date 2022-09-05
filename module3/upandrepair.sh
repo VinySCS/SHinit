@@ -35,24 +35,33 @@
 #       - Added case logic.                                               #
 #   Version: 1.2 8/29/2022, by Vinux.                                     #
 #       - Added CHECK_UPGRADE                                             #
+#   Version: 1.3 9/05/2022, by Vinux.                                     #
+#       - Added colors, and blinking effect                               #
+#       - Changed the text in *)                                          #
+#                                                                         #
 #                                                                         #
 #   Tested: Ubuntu 22.04                                                  #
 #           bash 5.1.16                                                   #
 ###########################################################################
+#   Colors:
+RED='\033[31;1m'
+BLINKING='\033[5m'
+GREEN='\033[32;1m'
 
 #   Variables:
-CHECK_REPO=0
+CHECK_REPO=0 
 CHECK_UPGRADE=0
 UPDATE=0
 REPAIR=0
 KERNEL_VERSION=0
 DISTRO_VERSION=0
 VERSION_KEY=0
-SCRIPT_VERSION=1.2
+SCRIPT_VERSION=1.3
 HELP_KEY=0
-MESSAGE="
-    $(basename "$0") - PARAMETERS - version $SCRIPT_VERSION
+MESSAGE= echo -e "
 
+    ${RED} $(basename "$0") - PARAMETERS - version $SCRIPT_VERSION
+${GREEN}
          -cr - Check Repositories
          -cu - Check Upgrades
          -us - Update System
@@ -61,9 +70,8 @@ MESSAGE="
          -dv - Distro Version
          -v  - Script Version
          -h  - Show Message
-    Created by: Vinux 
-"
 
+        ${BLINKING}${RED} Created by: Vinux " '\n'
 #   Exec:
 while test -n "$1" 
 do
@@ -76,10 +84,11 @@ do
         -kv) KERNEL_VERSION=1                                                                                           ;;
         -dv) DISTRO_VERSION=1                                                                                           ;;
         -v) VERSION_KEY=1                                                                                               ;;
-        *) echo "Incomplete command, please complete using parameter or parameters. Type ./upandrepair.sh -h" && exit 1 ;;
+        *) echo "Unrecognized command, please type ./upandrepair.sh -h" && exit 1 ;;
     esac
     shift
 done
+
 
 [ $HELP_KEY -eq 1 ] && echo "$MESSAGE"
 [ $CHECK_REPO -eq 1 ] && CHECK_REPO=$(sudo apt update) && echo "$CHECK_REPO"

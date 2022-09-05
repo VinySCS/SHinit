@@ -1,0 +1,30 @@
+         ___________________________
+        |___code__/__changes________|
+        |   1     \  bold           |
+        |   2     /  blurred        |
+        |   4     \  underlined     |
+        |   5     /  blinking       |
+        |   7     \  reverse        |
+        |   8     /  hidden         |
+        |_________\_________________|
+        |___code__/__color__________|
+        |   30    \  black          |
+        |   31    /  red            |   
+        |   32    \  green          |
+        |   33    /  yellow         |
+        |   34    \  blue           |
+        |   35    /  purple         |
+        |   36    \  cyan           |
+        |   37    /  light gray     |
+        |_________\_________________|
+        |__code___/__background_____|
+        |   40    \  black bkg      |
+        |   41    /  red bkg        |
+        |   42    \  green bkg      |
+        |   43    /  yellow bkg     |
+        |   44    \  blue bkg       |
+        |   45    /  purple bkg     |
+        |   46    \  cyan bkg       |
+        |   47    /  light gray bkg |
+        |         \                 |
+        |_________/_________________|
