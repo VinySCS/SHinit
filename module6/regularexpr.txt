@@ -1,0 +1,13 @@
+   For learn more:
+   
+    ^ - The "^" means that it is the beginning of a line 
+    $ - The "$" means that it is the end of a line
+    [] - This is used in case of necessity to create a list of values
+   ^[] - Gives all the lines that beginning with the values inside the list
+   [^] - When the circumflex is inside a list in the beginning it means "reject all values" after the circumflex
+     . - Joker that represents a character
+     + - The before digit needs to appear again
+     | - Or operator
+    .* - Joker for anything
+     * - The before digit can appear in any quantity
+   {,} - The before digit needs to appear in the indicated quantity
